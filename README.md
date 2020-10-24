@@ -11,9 +11,9 @@ If this all sounds Greek to you, head over to Austin's [Flash Mint presentation]
 ## TLDR
 If you just want the TDLR summary, consder the following scenario:
 
-![](https://raw.githubusercontent.com/fifikobayashi/FlashMintArbitrage/main/Illustrations/1.%20ExecutionSnapshot.PNG?token=ANZMCJNSU3NFZWPYGAYKK427SN6IQ)
+![](https://raw.githubusercontent.com/fifikobayashi/FlashMintArbitrage/main/Illustrations/1.%20ExecutionSnapshot.PNG?token=ANZMCJJIC5FO6MVJGRSJFDK7SN7OK)
 
-![](https://raw.githubusercontent.com/fifikobayashi/FlashMintArbitrage/main/Illustrations/2.%20EndStateSnapshot.PNG?token=ANZMCJMXUDY3VALEEBIRTHK7SN6IQ)
+![](https://raw.githubusercontent.com/fifikobayashi/FlashMintArbitrage/main/Illustrations/2.%20EndStateSnapshot.PNG?token=ANZMCJNYJSUK5KAFK236NGS7SN7OM)
 
 
 
