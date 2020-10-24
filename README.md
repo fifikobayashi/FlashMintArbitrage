@@ -103,7 +103,7 @@ _erc20UniTrade: 579000000000000000000 // trading 579 DAI on Uniswap back to ETH
 10. A successful flash mint arb tx will look like [this](https://ropsten.etherscan.io/tx/0xcd7df11739852523b70419f6868d2c43fd57e984c160911d5da962d3d2e2db14).
 
 ## Next Steps
-I encourage everyone to start a constructive discussion about whether this type of concept should involve fees. I'd imagine existing flash lending protocols would not be too excited about a zero fee Flash Minting module as it would take business away from their existing flash loan lending pools. 
+There's a broader discussion needed on whether this type of concept should involve fees. I'd imagine existing flash lending protocols would not be too excited about a zero fee Flash Minting module as it would take business away from their existing flash loan lending pools. 
 
 At the same time, from a consumer POV, I don't know how much it'd cost the lenders to allow flash minting out of thin air, other than the intense audits needed to assure the integrity of their ecosystem when introducing flash minting on mainnet.
 And as mentioned earlier this is still an experimental concept so would be great to hear all the ways this can be exploited.
