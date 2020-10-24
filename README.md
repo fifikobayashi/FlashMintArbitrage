@@ -45,7 +45,7 @@ There's a common misconception of leveraging unlimited flash mint funds to wreck
 
 ***So what benefits does Flash Minting offer?***
 
-Speaking hypotehtically of course since it's yet to be formally adopted by protocols on mainnet.
+Speaking hypothetically of course since it's yet to be formally adopted by protocols on mainnet.
 The benefits should include:
 - ***Cost***: Flash Minting should be much cheaper than Flash Loans, if not close to zero. That's just my personal opinion but obviously a broader discussion is needed.
 - ***Removal of barriers to entry***: The nature of the 'minting' concept means even non-lending projects (or even twitter lol) can become flash minting providers (e.g. build a dapp that interacts with the fWETH contract with simple mint buttons), as long as the fWETH is accepted by at least one DEX or lending protocol. This would remove one barrier of entry into DeFi for external entities and support mainstream adoption.
