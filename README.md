@@ -43,7 +43,7 @@ The difference is you don't flash borrow from a liquidity pool, the tokens are i
 
 There's a common misconception of leveraging unlimited flash mint funds to wreck havoc across the DeFi landscape. As prompted by @DeFiGod1 on [twitter](https://twitter.com/DeFiGod1/status/1320106538615377920), what you can do with the flash minted tokens is still subject to the quantum of liquidity of flash mint friendly DEXs. There might be some difference in the quantum of total lending pool liquidity vs total DEX trading liquidity but I haven't crunched the numbers yet. If you check the [Kollateral](https://www.kollateral.co/) page (Flash Loan aggregator), the combined Aave/DyDx flash loan liquidity is $200M for ETH as at 24th Oct 2020.
 
-***So what benefits do Flash Minting offer?***
+***So what benefits does Flash Minting offer?***
 
 Speaking hypotehtically of course since it's yet to be formally adopted by protocols on mainnet.
 The benefits should include:
