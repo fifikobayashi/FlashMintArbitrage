@@ -39,6 +39,19 @@ If you just want my TLDR summary, here is what the code is achieving:
 Flash Minting is similar to Flash Loans where you don't need any up front capital to access temporary liquidity within an atomic transaction.
 The difference is you don't flash borrow from a liquidity pool, the tokens are independently minted for your use during the flash mint tx and the same amount of tokens must be burned at the end of the transaction otherwise your transaction will revert like a flash loan.
 
+***Aren't you just Brrrrrr'ing like the Federal Reserve?***
+
+There's a common misconception of leveraging unlimited flash mint funds to wreck havoc across the DeFi landscape. As prompted by @DeFiGod1 on [twitter](https://twitter.com/DeFiGod1/status/1320106538615377920), what you can do with the flash minted tokens is still subject to the quantum of liquidity of flash mint friendly DEXs. There might be some difference in the quantum of total lending pool liquidity vs total DEX trading liquidity but I haven't crunched the numbers yet. If you check the [Kollateral](https://www.kollateral.co/) page (Flash Loan aggregator), the combined Aave/DyDx flash loan liquidity is $200M for ETH as at 24th Oct 2020.
+
+***So what benefits do Flash Minting offer?***
+
+Speaking hypotehtically of course since it's yet to be formally adopted by protocols on mainnet.
+The benefits should include:
+- ***Cost***: Flash Minting should be much cheaper than Flash Loans, if not close to zero. That's just my personal opinion but obviously a broader discussion is needed.
+- ***Removal of barriers to entry***: The nature of the 'minting' concept means even non-lending projects (or even twitter lol) can become flash minting providers (e.g. build a dapp that interacts with the fWETH contract with simple mint buttons), as long as the fWETH is accepted by at least one DEX or lending protocol. This would remove one barrier of entry into DeFi for external entities and support mainstream adoption.
+- ***New profitability vectors***: It facilitates yet another way to make or save money, be it arbitrage, liquidation, self-liquidation, collateral swap during market downturns...etc
+- ***Inheritance***: In a conceptual sense, flash minting essentially inherits all the benefits that comes with a Flash Loan, such as having access to significant liquidity with zero up front capital, turning your average DeFi consumer into GigaWhales.
+
 ***Isn't the Flash Mint DEX now rekt because it's left holding a bag of valueless Flash WETH!***
 
 At the end of the Tx the 1 Flash WETH that the Flash Mint DEX is holding is actually backed by 1 ETH in the Flash WETH contract. They can call the Flash WETH contract to redeem the underlying ETH.
@@ -53,9 +66,11 @@ If another contract executes a flash mint, then uses x flash WETH to redeem for 
 
 The whole end to end transaction reverts, so it never actually accepted the Flash WETH to begin with, much like a flash loan reversion.
 
-***This is too dangerous, if this makes it to mainnet it'll be Q1 2020 all over again with the flash loan exploits!***
+***Isn't this dangerous? If this makes it to mainnet it'll be Q1 2020 all over again with the flash loan exploits!***
 
 There might be some short term pain as people will inevitably try to game the concept but I personally see this as a net positive long term for the DeFi ecosystem as it will reduce the amount of projects that treat security audits as an afterthought. Flash loans were at one stage considered too hazardous, but now you see users regularly flashing 8 figure DAI loans for breakfast.
+
+Lending protocols would be most at risk 
 
 ***What's the maximum number of tokens I can flash mint?***
 
