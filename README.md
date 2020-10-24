@@ -1,6 +1,13 @@
 # Flash Mint Arbitrage
 An example of a Flash Mint powered arbitrage executed on the Ropsten testnet between a flash mint DEX, Kyber and Uniswap.
 
+- [Background](https://github.com/fifikobayashi/FlashMintArbitrage#background)
+- [TLDR](https://github.com/fifikobayashi/FlashMintArbitrage#tldr)
+- [FAQ](https://github.com/fifikobayashi/FlashMintArbitrage#faq)
+- [Setup and Execution](https://github.com/fifikobayashi/FlashMintArbitrage#setup-and-execution)
+- [Next Steps](https://github.com/fifikobayashi/FlashMintArbitrage#next-steps)
+
+
 ## Background
 When I first heard about Flash Minting back in Feb 2020 I laughed. Then when I heard about Maker's MIP25 for a flash mint DAI module, I laughed again. But the more I started looking into ways of gaming this concept, the more I realised the underlying tokenomics actually work. Because at the end of the atomic Tx, no party is out of pocket.
 
