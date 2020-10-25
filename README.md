@@ -41,7 +41,9 @@ The difference is you don't flash borrow from a liquidity pool, the tokens are i
 
 ***Aren't you just Brrrrrr'ing like the Federal Reserve?***
 
-There's a common perception of leveraging unlimited flash mint funds to wreck havoc across the DeFi landscape. As prompted by @DeFiGod1 on [twitter](https://twitter.com/DeFiGod1/status/1320106538615377920), what you can do with the flash minted tokens is still subject to the quantum of liquidity of flash mint friendly DEXs. There might be some difference in the quantum of total lending pool liquidity vs total DEX trading liquidity but I haven't crunched the numbers yet. If you check the [Kollateral](https://www.kollateral.co/) page (Flash Loan aggregator), the combined Aave/DyDx flash loan liquidity is $200M for ETH as at 24th Oct 2020.
+There's a common perception of leveraging unlimited flash mint funds to wreck havoc across the DeFi landscape. As prompted by @DeFiGod1 on [twitter](https://twitter.com/DeFiGod1/status/1320106538615377920), what you can do with the flash minted tokens is still largely be subject to the quantum of liquidity of flash mint friendly DEXs. There might be some difference in the quantum of total lending pool liquidity vs total DEX trading liquidity but I haven't crunched the numbers yet. If you check the [Kollateral](https://www.kollateral.co/) page (Flash Loan aggregator), the combined Aave/DyDx flash loan liquidity is $200M for ETH as at 24th Oct 2020.
+
+On the other hand, once DeFi lenders start accepting flash mint tokens, then there's a bit more freedom to mint an godly amount and then execute some weird interest rate related strategy that ends up yielding a positive outcome for the minter.
 
 ***So what benefits does Flash Minting offer?***
 
@@ -58,7 +60,7 @@ At the end of the Tx the 1 Flash WETH that the Flash Mint DEX is holding is actu
 
 ***What if another Flash Mint Demo contract takes the 1 ETH sitting in the Flash WETH contract, doesn't that mean the x Flash WETH held by the Flash Mint DEX is no longer backed?***
 
-For anyone to hold Flash WETH, they needed to be flash minted at some point, which meants the same amount of Flash WETH needs to be burned at the end of that Tx.
+For anyone to hold Flash WETH, they needed to be flash minted at some point, which means the same amount of Flash WETH needs to be burned at the end of that Tx.
 
 If another contract executes a flash mint, then uses x flash WETH to redeem for x ETH sitting in the FlashWETH contract, and if they do nothing else their flash mint Tx will revert like a flash loan because they no longer have the same amount of originally minted Flash WETH to burn in order to successfully close the Flash Mint Tx. However as Austin Williams explained in his presentation, this is still an experimental concept and there are bound to be exploits afoot. Don't use this in prod without a thorough and holistic audit on how this impacts your whole ecosystem.
 
@@ -70,7 +72,7 @@ The whole end to end transaction reverts, so it never actually accepted the Flas
 
 There might be some short term pain as people will inevitably try to game the concept but I personally see this as a net positive long term for the DeFi ecosystem as it will reduce the amount of projects that treat security audits as an afterthought. Flash loans were at one stage considered too hazardous, but now you see users regularly flashing 8 figure DAI loans for breakfast.
 
-Lending protocols would be most at risk 
+Lending protocols and their associated interest rates would be at risk of potential new flash mint powered attack vectors due to the quantum at play. There's bound to be other angles so hopefully the various protocols can pre-emptively guard themselves.
 
 ***What's the maximum number of tokens I can flash mint?***
 
