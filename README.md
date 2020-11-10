@@ -24,7 +24,7 @@ The following contracts are on Ropsten:
 If this all sounds Greek to you, head over to Austin's [Flash Mint presentation](https://zoom.us/rec/play/vpUsd-2uqG83H4KV4wSDV_QqW9W8eq6sgyYa__dbyxmxU3JQZlGgNOQWa7YCcdGL7KuPjJmmffLXrHeV?continueMode=true&_x_zm_rtaid=bOcPBuGvSXKBX4e8HeUYmA.1586903684079.752b46c2abd76976551dd088fa79a2a9&_x_zm_rhtaid=116) which explains this concept in detail. 
 
 ## TLDR
-If you just want my TLDR summary, here is what the code is achieving:
+If you just want my TLDR summary, here is what my fork is achieving:
 
 ![](https://github.com/fifikobayashi/FlashMintArbitrage/blob/main/img/ExecutionSnapshot.PNG)
 
