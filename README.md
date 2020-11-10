@@ -130,7 +130,6 @@ If you found this useful and would like to send me some gas money:
 ```
 0xef03254aBC88C81Cb822b5E4DCDf22D55645bCe6
 ```
-Or if you're short on gas money just send me some Ropsten Ether so I can play with this at scale.
 
 
 
