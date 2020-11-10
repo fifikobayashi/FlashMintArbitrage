@@ -2,8 +2,6 @@
 
 An example of a Flash Mint powered arbitrage executed on the Ropsten testnet between a flash mint DEX, Kyber and Uniswap.
 
-![](https://github.com/fifikobayashi/FlashMintArbitrage/blob/main/img/pepe.jpg)
-
 - [Background](https://github.com/fifikobayashi/FlashMintArbitrage#background)
 - [TLDR](https://github.com/fifikobayashi/FlashMintArbitrage#tldr)
 - [FAQ](https://github.com/fifikobayashi/FlashMintArbitrage#faq)
